@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ติดตามสถานะการสมัคร | ระบบรับสมัครนักศึกษาใหม่ มจพ.</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <div class="seal"><img src="/image/logo_kmutnb-(6).png" alt="ตราสัญลักษณ์ มจพ."></div>
+      <div class="brand-text">
+        <strong>ระบบรับสมัครนักศึกษาใหม่</strong>
+        <span>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</span>
+      </div>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">หน้าแรก</a>
+      <a href="application.html">สมัครเรียน</a>
+      <a href="status.html" aria-current="page">ติดตามสถานะ</a>
+      <a href="programs.html" class="nav-cta">หลักสูตร</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section" style="padding-bottom:0;">
+  <div class="wrap" style="max-width:820px;">
+    <h1 style="font-size:26px; margin-bottom:10px;">ติดตามสถานะการสมัคร</h1>
+    <p style="color:var(--stone); font-size:14.5px; margin-bottom:40px;">กรอกเลขที่ใบสมัครและเลขบัตรประจำตัวประชาชน เพื่อตรวจสอบความคืบหน้าของใบสมัคร</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="wrap" style="max-width:820px;">
+
+    <form class="status-search">
+      <div class="field">
+        <label for="ref">เลขที่ใบสมัคร</label>
+        <input id="ref" type="text" value="KMUTNB-69-014582">
+      </div>
+      <div class="field">
+        <label for="idc">เลขบัตรประจำตัวประชาชน</label>
+        <input id="idc" type="text" placeholder="X-XXXX-XXXXX-XX-X">
+      </div>
+      <button type="submit" class="btn btn-solid">ตรวจสอบสถานะ</button>
+    </form>
+
+    <div class="status-summary">
+      <div>
+        <h3>นายภูมิพัฒน์ ศรีสุวรรณ</h3>
+        <p>สาขาวิศวกรรมคอมพิวเตอร์ · คณะวิศวกรรมศาสตร์ · เลขที่ KMUTNB-69-014582</p>
+      </div>
+      <span class="status-pill">อยู่ระหว่างพิจารณา</span>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item done">
+        <span class="timeline-dot"></span>
+        <h4>ส่งใบสมัครแล้ว</h4>
+        <p>ระบบได้รับใบสมัครและเอกสารประกอบครบถ้วน</p>
+        <span class="when">2 กันยายน 2569 · 14:32 น.</span>
+      </div>
+      <div class="timeline-item done">
+        <span class="timeline-dot"></span>
+        <h4>ตรวจสอบเอกสารเรียบร้อย</h4>
+        <p>เจ้าหน้าที่ตรวจสอบความถูกต้องของเอกสารแล้ว ไม่พบข้อบกพร่อง</p>
+        <span class="when">4 กันยายน 2569 · 10:15 น.</span>
+      </div>
+      <div class="timeline-item current">
+        <span class="timeline-dot"></span>
+        <h4>อยู่ระหว่างพิจารณาคัดเลือก</h4>
+        <p>คณะกรรมการกำลังพิจารณาผลการเรียนและคุณสมบัติของผู้สมัคร</p>
+        <span class="when">คาดว่าทราบผล 30 มกราคม 2570</span>
+      </div>
+      <div class="timeline-item pending">
+        <span class="timeline-dot"></span>
+        <h4>ประกาศผลการคัดเลือก</h4>
+        <p>ตรวจสอบรายชื่อผู้มีสิทธิ์เข้าศึกษาผ่านหน้านี้และเว็บไซต์ประกาศผลของมหาวิทยาลัย</p>
+      </div>
+      <div class="timeline-item pending">
+        <span class="timeline-dot"></span>
+        <h4>ยืนยันสิทธิ์และรายงานตัว</h4>
+        <p>ผู้ผ่านการคัดเลือกยืนยันสิทธิ์พร้อมชำระค่าธรรมเนียมภายในเวลาที่กำหนด</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-bottom" style="border-top:none; padding-top:0;">
+      <span>© 2026 มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
